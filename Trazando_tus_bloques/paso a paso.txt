@@ -52,12 +52,22 @@ C:\Users\Karina Aliste\Documents\GitHub\basic_repo>cd trazando_tus_bloques
 C:\Users\Karina Aliste\Documents\GitHub\basic_repo\Trazando_tus_bloques>git add .
 
 # agregué commit
-C:\Users\Karina Aliste\Documents\GitHub\basic_repo\Trazando_tus_bloques>git commit m- "elimina comentarios en html"
-error: pathspec 'm-' did not match any file(s) known to git
-error: pathspec 'elimina comentarios en html' did not match any file(s) known to git
+C:\Users\Karina Aliste\Documents\GitHub\basic_repo\Trazando_tus_bloques>git commit -m "elimina comentarios en html"
+[main b959f1c] elimina comentarios en html
+ 3 files changed, 129 insertions(+)
+ create mode 100644 Trazando_tus_bloques/lego.html
+ create mode 100644 Trazando_tus_bloques/paso a paso.txt
+ create mode 100644 Trazando_tus_bloques/stylelego.css
 
 # agregué los cambios del repositorio local en el escritorio remoto
 C:\Users\Karina Aliste\Documents\GitHub\basic_repo\Trazando_tus_bloques>git push origin main
-Everything up-to-date
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.82 KiB | 207.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/kalisteb/basic_repo.git
+   6ad456c..b959f1c  main -> main
 
 C:\Users\Karina Aliste\Documents\GitHub\basic_repo\Trazando_tus_bloques>
